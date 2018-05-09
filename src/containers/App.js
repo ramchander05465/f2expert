@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
+import Banner from '../components/banner/banner'
 
 class App extends Component {
   state = {
@@ -18,6 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header toggleNavbar = {this.toggleNavbar} collapsed = {this.state.collapsed} />
+        <Banner />
         <Footer />
       </div>
     );

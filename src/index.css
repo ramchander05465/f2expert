@@ -16,12 +16,22 @@ body {
   cursor: pointer;
 }
 
-.header-top a:hover{
+.header-top .navbar-nav a:hover{
   background: #f19220;
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-top .navbar-brand{
+  padding: 0px 15px;
 }
 
 .navbar{
   padding: 0px;
+}
+
+.carousel-item img{
+  background-repeat:no-repeat;
+  background-position: center center;
+  min-width: 100%;
 }

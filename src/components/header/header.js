@@ -10,15 +10,16 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem   } from 'reactstrap';
+  DropdownItem   } from 'reactstrap'
 
 //import './header.css'
+import logo from '../../images/f2e.jpg'
 
 const Header = (props) => {  
   return(
     <header className="header-top">
       <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">F2Expert</NavbarBrand>
+          <NavbarBrand><img src={logo} /></NavbarBrand>
           <NavbarToggler onClick={props.toggleNavbar} />
           <Collapse isOpen={props.collapsed} navbar>
             <Nav className="ml-auto" navbar>
