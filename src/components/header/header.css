@@ -1,0 +1,18 @@
+header{  
+  display: flex;
+  background-color: #ccc;
+  min-width: 100%;
+}
+nav{
+  flex-grow: 1;
+  justify-content: center;
+}
+ul{
+  display: flex;
+  align-items: flex-end;
+}
+li{
+  list-style-type: none;
+  flex-grow: 1;
+}
+

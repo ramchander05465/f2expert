@@ -1,0 +1,6 @@
+footer{
+  display: flex;
+  background-color: #ccc;
+  min-width: 100%;
+  align-items: flex-end;
+}

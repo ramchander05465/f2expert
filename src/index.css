@@ -1,5 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Century Gothic";
+}
+
+.header-top{
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.header-top a{
+  display:inline-block;
+  padding: 30px 15px;
+  font-size: 16px;
+  color: #585858;
+  cursor: pointer;
+}
+
+.header-top a:hover{
+  background: #f19220;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar{
+  padding: 0px;
 }
