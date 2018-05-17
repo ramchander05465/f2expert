@@ -13,6 +13,7 @@ import nodejsIcon from '../../images/nodejsIcon.jpg'
 import gruntIcon from '../../images/gruntIcon.jpg'
 import jqueryIcon from '../../images/jqueryIcon.jpg'
 import backboneIcon from '../../images/backboneIcon.jpg'
+import contactMap from '../../images/home__contactMap.jpg'
 
 class Home extends Component{
   render(){
@@ -106,6 +107,21 @@ class Home extends Component{
         </div>
       </section>
       <Testimonial />
+      <section className="pd__TB35">
+      <div className="container">
+        <div className="row">
+            <div className="col-sm-6">
+                <img src={contactMap} width="100%" />
+              </div>
+              <div className="col-sm-6">
+                <h1>Contact US</h1>
+                  <p>Our trainers are professionals with many years of commercial IT experience. 
+      We have well qualified trainers with over 10 years of work experience holding 
+      many technical certifications and awards recognition.</p>
+              </div>
+          </div>
+      </div>
+      </section>
       </div>
     )
   }
