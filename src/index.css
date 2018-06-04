@@ -168,3 +168,17 @@ section {
   border-top-color: #ffffff;
   border-width: 15px;
   margin-left: -15px; }
+
+footer{
+  display: flex;
+  background-color: #ccc;
+  min-width: 100%;
+  align-items: flex-end;  }
+
+footer li{
+  list-style-type: none;
+  display: inline-flex;
+  padding: 5px;
+  align-items: center;
+}
+  
