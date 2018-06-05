@@ -1,16 +1,13 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom';
 import { 
   Collapse,
   Navbar,
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem   } from 'reactstrap'
+  NavItem  } from 'reactstrap'
+
 
 //import './header.css'
 import logo from '../../images/f2e.jpg'
@@ -24,22 +21,22 @@ const Header = (props) => {
           <Collapse isOpen={props.collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/home">Home</NavLink>
+                <NavLink  to="/home" activeClassName="active">Home</NavLink >
               </NavItem>              
               <NavItem>
-                <NavLink href="/about">About Us</NavLink>
+                <NavLink to="/about" activeClassName="active">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/team">Team</NavLink>
+                <NavLink activeClassName="active" to="/team">Team</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/testimonials">Testimonials</NavLink>
+                <NavLink activeClassName="active" to="/testimonials">Testimonials</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/trainings">Trainings</NavLink>
+                <NavLink activeClassName="active" to="/trainings">Trainings</NavLink>
               </NavItem>
               <NavItem> 
-                <NavLink href="/contact">Contact Us</NavLink>
+                <NavLink activeClassName="active" to="/contact">Contact Us</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

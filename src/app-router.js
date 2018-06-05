@@ -8,8 +8,7 @@ import Trainings from './containers/trainings/trainings'
 import Testimonials from './containers/testimonials/testimonials'
 import Contact from './containers/contact/contact'
 
-const AppRouter = (props) => (
-  <BrowserRouter>
+const AppRouter = () => (
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/home" component={Home} />
@@ -19,7 +18,6 @@ const AppRouter = (props) => (
       <Route path="/testimonials" component={Testimonials} />
       <Route path="/contact" component={Contact} />
     </Switch>
-  </BrowserRouter>
 )
 
 export default AppRouter

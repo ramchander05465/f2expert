@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import {withRouter} from 'react-router-dom'
 
-export default class Team extends Component {
+class Team extends Component {
   render() {
     return (
       <div>
@@ -9,3 +10,5 @@ export default class Team extends Component {
     )
   }
 }
+
+export default Team

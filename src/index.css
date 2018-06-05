@@ -18,6 +18,7 @@ body {
 
 .header-top .navbar-nav a:hover{
   background: #f19220;
+  font-size: 16px;
   text-decoration: none;
   color: #ffffff;
 }
@@ -181,4 +182,9 @@ footer li{
   padding: 5px;
   align-items: center;
 }
-  
+a.active {
+  background: #f19220;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
