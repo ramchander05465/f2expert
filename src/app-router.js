@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
+import {Switch, Route, Redirect} from 'react-router-dom'
 
 import Home from './containers/home/home'
 import About from './containers/about/about'
@@ -17,6 +17,7 @@ const AppRouter = () => (
       <Route path="/trainings" component={Trainings} />
       <Route path="/testimonials" component={Testimonials} />
       <Route path="/contact" component={Contact} />
+      <Redirect from='/*' to='/' />
     </Switch>
 )
 

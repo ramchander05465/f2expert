@@ -6,7 +6,7 @@ const Training = (props) => {
       return (
         <div className="col-md-3 trainingWrapper" key={index}>
           <section className="text-center"> 
-            <i ><img  src={require(`../../images/${item.icon}`)} /></i>
+            <i ><img  src={require(`../../images/${item.icon}`)} alt={`Ready to learn ${item.training}`}  /></i>
             <h2 >{item.training}</h2>
             <p >{item.decs}</p>
             <a  href="#">Read More</a> 

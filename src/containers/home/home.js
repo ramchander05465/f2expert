@@ -84,14 +84,14 @@ class Home extends Component{
                 At F2Expert, we don't just provide quality Training. We impart industry experience and 
                 real world knowledge to students enabling them to find the right jobs instantly. </p>
             </div>
-            <div className="col-md-6"> <img src={Map} width="100%" /> </div>
+            <div className="col-md-6"> <img src={Map} width="100%" alt='Map' /> </div>
           </div>
         </div>
       </section>
       <section className="greyStrip">
         <div className="container">
           <div className="row">
-            <div className="col-md-6"><img src={Team} width="100%" /></div>
+            <div className="col-md-6"><img src={Team} width="100%" alt='Team' /></div>
             <div className="col-md-6">
               <h1>Team</h1>
               <p>Our trainers are professionals with many years of commercial IT experience. 
@@ -123,7 +123,7 @@ class Home extends Component{
       <div className="container">
         <div className="row">
             <div className="col-sm-6">
-                <img src={contactMap} width="100%" />
+                <img src={contactMap} width="100%" alt='Contact Us' />
               </div>
               <div className="col-sm-6">
                 <h1>Contact US</h1>

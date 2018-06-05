@@ -9,7 +9,7 @@ const Testimonial = (props) => {
           <div className="arrowDown">{item.desc} </div>
           </div>
           <div className="testimonials__userDetail">
-            <img  src={require(`../../images/${item.userPic}`)} />
+            <img  src={require(`../../images/${item.userPic}`)} alt='F2expert' />
               <h1 >{item.userName}</h1>
               <p >{item.designation}</p>          
           </div>

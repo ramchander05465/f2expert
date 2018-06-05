@@ -16,7 +16,7 @@ const Header = (props) => {
   return(
     <header className="header-top">
       <Navbar color="light" light expand="md">
-          <NavbarBrand><img src={logo} /></NavbarBrand>
+          <NavbarBrand><img src={logo} alt='Welcome to F2Expert' /></NavbarBrand>
           <NavbarToggler onClick={props.toggleNavbar} />
           <Collapse isOpen={props.collapsed} navbar>
             <Nav className="ml-auto" navbar>
