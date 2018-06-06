@@ -13,6 +13,7 @@ import contactMap from '../../images/home__contactMap.jpg'
 
 class Home extends Component{
   componentWillMount = () => {
+    console.log(JSON.stringify(actionType))
     this.props.addInfo('Rama')
   }
 

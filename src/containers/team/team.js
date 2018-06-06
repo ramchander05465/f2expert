@@ -22,7 +22,8 @@ class Team extends Component {
                 trainers are knowledgeable and also conversant regarding the newest scientific progress
                  within their field of expertise, that eventually enables them to share technologies beyond 
                  study course articles and also guide the actual students with entire understanding of purposes.
-              </p>   
+              </p> 
+              <img src={require('../../images/f2expert-vision.jpg')} alt='F2expert Vision' />  
       </div>
     )
   }
