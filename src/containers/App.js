@@ -7,7 +7,7 @@ import AppRouter from '../app-router'
 
 class App extends Component {
   state = {
-    collapsed: true
+    collapsed: false
   }
 
   toggleNavbar = () => {

@@ -31,6 +31,17 @@ body {
   padding: 0px;
 }
 
+.navbar-toggler{
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+  .header-top a{
+    padding: 10px 15px;
+    display: block;
+  }
+}
+
 .carousel-item img{
   background-repeat:no-repeat;
   background-position: center center;

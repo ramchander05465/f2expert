@@ -5,9 +5,11 @@ class Team extends Component {
     return (
       <div className="col-md-8">
         <h1>Team!</h1>
-        <p>Our trainers are professionals with many years of commercial IT experience.
-           We have well qualified trainers with over 10 years of work experience holding many 
-           technical certifications and awards recognition.</p>   
+        <p>
+          Our trainers are professionals with many years of commercial IT experience.
+          We have well qualified trainers with over 10 years of work experience holding many 
+          technical certifications and awards recognition.
+        </p>  
 
           <p>
             The quality and also usefulness connected with any kind of exercise program depends upon
@@ -22,8 +24,7 @@ class Team extends Component {
                 trainers are knowledgeable and also conversant regarding the newest scientific progress
                  within their field of expertise, that eventually enables them to share technologies beyond 
                  study course articles and also guide the actual students with entire understanding of purposes.
-              </p> 
-              <img src={require('../../images/f2expert-vision.jpg')} alt='F2expert Vision' />  
+            </p> 
       </div>
     )
   }
