@@ -1,0 +1,78 @@
+mlm=[{
+  id:0,
+  name:'Ram',
+  email:'ram@ram.com',
+  mobile:'+919990062545',
+  address:'Delhi',
+  aadhar:12345678998765,
+  course:'UI Designer',
+  joining:'date'
+  tool:[],
+  ref:[1,2]
+},{
+  id:1,
+  name:'Chander',
+  email:'Chander@ram.com',
+  mobile:'+919990062546',
+  address:'Delhi',
+  aadhar:12345678998766,
+  course:'UI Designer',
+  joining:'date'
+  tool:[],
+  ref:[3]
+},{
+  id:2,
+  name:'Nishad',
+  email:'Nishad@ram.com',
+  mobile:'+919990062547',
+  address:'Delhi',
+  aadhar:12345678998767,
+  course:'UI Designer',
+  joining:'date'
+  tool:[],
+  ref:[4,5]
+},{
+  id:3,
+  name:'Sonu',
+  email:'sonu@ram.com',
+  mobile:'+919990062544',
+  address:'Delhi',
+  aadhar:1234567899874,
+  course:'UI Designer',
+  joining:'date'
+  tool:[],
+  ref:[6]
+},{
+  id:4,
+  name:'Monu',
+  email:'Monu@ram.com',
+  mobile:'+919990062534',
+  address:'Delhi',
+  aadhar:1233567893874,
+  course:'UI Designer',
+  joining:'date'
+  tool:[],
+  ref:[]
+},{
+  id:5,
+  name:'Tony',
+  email:'Tony@ram.com',
+  mobile:'+919990062534',
+  address:'Delhi',
+  aadhar:1234455678938456,
+  course:'UI Designer',
+  joining:'date'
+  tool:[],
+  ref:[]
+},{
+  id:6,
+  name:'Rohit',
+  email:'Rohit@ram.com',
+  mobile:'+919992162534',
+  address:'Delhi',
+  aadhar:123456789438456,
+  course:'UI Designer',
+  joining:'date'
+  tool:[],
+  ref:[]
+}]
